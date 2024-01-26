@@ -17,6 +17,7 @@
     "@fontsource/raleway": "^4.5.10",
     "@types/crypto-js": "^4.1.1",
     "@types/safe-json-stringify": "^1.1.2",
+    "axios": "^1.6.3",
     "crypto-js": "^4.1.1",
     "firebase": "^9.9.3",
     "firebase-functions": "^3.22.0",
@@ -29,7 +30,8 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.21.1",
     "recoil": "^0.7.5",
-    "safe-json-stringify": "^1.2.0"
+    "safe-json-stringify": "^1.2.0",
+    "twilio": "^5.0.0-rc.1"
   },
   "devDependencies": {
     "@types/node": "18.7.13",

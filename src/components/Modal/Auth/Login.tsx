@@ -26,6 +26,8 @@ const Login: React.FC<LoginProps> = () => {
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     signInWithEmailAndPassword(loginForm.email, loginForm.password);
+    const isAdminEmail = ['admin1@example.com', 'admin2@example.com', 'admin3@example.com'].includes(loginForm.email);
+    
   };
 
   const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
